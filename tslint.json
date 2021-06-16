@@ -1,0 +1,51 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended",
+    "tslint-config-prettier",
+    "tslint-config-airbnb"
+  ],
+  "jsRules": {},
+  "rules": {
+    "quotemark": [
+      true,
+      "single"
+    ],
+    "trailing-comma": [
+      true,
+      {
+        "singleline": "never",
+        "multiline": {
+          "objects": "never",
+          "arrays": "never",
+          "functions": "never",
+          "typeLiterals": "ignore"
+        }
+      }
+    ],
+    "comment-format": [
+      false,
+      "check-space"
+    ],
+    "semicolon": [
+      true,
+      "always",
+      "ignore-bound-class-methods"
+    ],
+    "ter-arrow-parens": [
+      true,
+      "as-needed"
+    ],
+    "import-name": [
+      true,
+      null,
+      {},
+      null,
+      {
+        "ignoreExternalModule": false,
+        "case": "any-case"
+      }
+    ]
+  },
+  "rulesDirectory": []
+}
